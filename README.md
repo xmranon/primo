@@ -1,7 +1,7 @@
 Primo - Private Monero payments
 
 
-Primo (Private Monero payments) is a protocol and set of software which enables a party to require paynent for service.
+Primo (Private Monero payments) is a protocol and set of software which enables a party to require payment for service.
 Users will mine Monero and submit shares to the party like to a pool. The party (eg, a web site) uses such mining as payment,
 and supplies the service based on those payments. Monero blocks will be found from time to time, and be the party's actual
 income.
@@ -14,7 +14,7 @@ yet merged (https://github.com/monero-project/monero/pull/5357). primo-apache ca
 the user does not supply payment, or allow, in which case the website owner may choose to display ads only if payment was
 not made. This means people are now able to use a website without exposing themselves to malware.
 
-- primo-firefox is a Firefox plugin which oversees connections and automatically detect which websites require payment.
+- primo-firefox is a Firefox plugin which oversees connections and automatically detects which websites require payment.
 It will work with primo-control-center to mine up to a user selected threshold and pay the website. This plugin is written
 with WebExtensions so should be straightforward to port to Chrome.
 
